@@ -2,7 +2,7 @@ service: sls-strapi
 
 provider:
   name: aws
-  runtime: nodejs18.x
+  runtime: nodejs14.x
   profile: <your-aws-profile>
   logRetentionInDays: ${self:custom.vars.logRetentionInDays, 1}
 
