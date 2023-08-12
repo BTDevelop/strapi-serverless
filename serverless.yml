@@ -50,7 +50,6 @@ functions:
           method: ANY
           cors: true
 
-
 resources:
   Resources:  
     S3StaticBucket:
