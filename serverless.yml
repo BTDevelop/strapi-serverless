@@ -60,6 +60,8 @@ custom:
   apigwBinary:
     types:
       - "multipart/form-data"
+  pythonRequirements:
+    pythonBin: python3
 
 plugins:
   - serverless-offline
