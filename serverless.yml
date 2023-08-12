@@ -68,5 +68,4 @@ plugins:
   - serverless-offline
   - serverless-cloudformation-sub-variables
   - serverless-apigw-binary
-  - serverless-bundle
 
