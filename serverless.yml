@@ -49,6 +49,8 @@ functions:
           path: /{any+}
           method: ANY
           cors: true
+    individually: true
+
 
 resources:
   Resources:  
@@ -66,3 +68,5 @@ plugins:
   - serverless-offline
   - serverless-cloudformation-sub-variables
   - serverless-apigw-binary
+  - serverless-bundle
+
