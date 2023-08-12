@@ -2,7 +2,7 @@ service: strapi-cms-service
 
 provider:
   name: aws
-  runtime: nodejs14.x
+  runtime: nodejs18.x
   profile: <your-aws-profile>
   logRetentionInDays: ${self:custom.vars.logRetentionInDays, 1}
 
