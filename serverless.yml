@@ -49,8 +49,6 @@ functions:
           path: /{any+}
           method: ANY
           cors: true
-    individually: true
-
 
 resources:
   Resources:  
