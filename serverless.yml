@@ -20,7 +20,6 @@ provider:
           - "#{BucketArn}/*"
           - BucketArn: !GetAtt S3StaticBucket.Arn
         - !GetAtt S3StaticBucket.Arn
-
 package:
   exclude:
     - ./**
