@@ -9,7 +9,6 @@ provider:
   environment:
     ADMIN_JWT_SECRET: "Just using dummy"
     BUCKET_NAME: !Ref S3StaticBucket
-    # URL from a free Mongo Atlas cluster.
     MONGODB_URI: "mongodb+srv://strapiowner:PASSWORD@cluster0.weldo.mongodb.net/strapi?retryWrites=true&w=majority"
   
   iamRoleStatements:
